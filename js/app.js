@@ -86,7 +86,7 @@ function createBoard () {
     for (let i = 0; i < cardArray.length; i++) {
         //create an element called image
        const card= document.createElement("img")
-       card.setAttribute("src", "images/Background.jpeg")
+       card.setAttribute("src", "images/Background.png")
        card.setAttribute("data-id", i)
        //add event listener to flip the card over, with callback
        card.addEventListener("click", flipCard)
