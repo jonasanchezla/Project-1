@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <h1>Sports Memory Game</h1>
+    
+    
+    <div id ="grid"></div>
+    
+   
+    <br>
+    <br>
+
+
+     <div class ="container">
+       <h4>(Push Start Button to Begin Game)</h4>
+        <h3>Cards Matched: <span id="result1"></span></h3>
+        <p><span id="second">00</span>:<span id="tens">00</span></p>
+        <button id="btn-start">Start</button>
+        <button id="btn-stop">Stop</button>
+        <button id="btn-reset">Reset</button>
+     </div>
+
+
+     <!-- used the following link to add a quick reload button below(https://www.youtube.com/watch?v=Azl6WzYuvgM) -->
+     <button id="restart" onclick="myButton()">Restart</button>
+     <script>
+        function myButton(){
+            location.reload()
+        }
+     </script>
+
+    
+
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
