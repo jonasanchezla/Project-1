@@ -1,5 +1,7 @@
 Memory Game
 
+https://jonasanchezla.github.io/Project-1/
+
 Project Description
 A short description of your game.
 When you click on a card, you will uncover an image and that image must match with a second card chosen. I was having a lot of issues making a score between two players, so I though if implementing a timer. The player with the fastest time would be the winner. 
