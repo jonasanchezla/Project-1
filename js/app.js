@@ -123,15 +123,15 @@ function checkMatch() {
 
    if( cardClicked[0] == cardClicked[1]){
         alert("It's a Match!")
-        cards[cardsMatch[0]].setAttribute("src", "images/blank.png")
-        cards[cardsMatch[1]].setAttribute("src", "images/blank.png")
+        cards[cardsMatch[0]].setAttribute("src", "images/Blank.png")
+        cards[cardsMatch[1]].setAttribute("src", "images/Blank.png")
         cards[cardsMatch[0]].removeEventListener("click", flipCard)
         cards[cardsMatch[1]].removeEventListener("click", flipCard)
         cardsWon.push(cardClicked)
         Player1.textContent= cardsWon.length 
    } else{
-        cards[cardsMatch[0]].setAttribute("src", "images/background.jpeg")
-        cards[cardsMatch[1]].setAttribute("src", "images/background.jpeg")
+        cards[cardsMatch[0]].setAttribute("src", "images/Background.jpeg")
+        cards[cardsMatch[1]].setAttribute("src", "images/Background.jpeg")
         alert("Wrong Match, Try Again!")
        
         
